@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        .formum{
+            width: 250px;
+            background-color: white;
+            margin: 0 auto;
+            height: 80px;
+            padding: 20px;
+            display: block;
+            
+        }
+        .formum input {
+            margin: 10px auto;
+            display: block;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <h1>DOM MODEL</h1>
+    </div>
+    <form class="formum">
+        <input type="text" id="username" name="geting" placeholder="Kullanıcı Adını giriniz">
+        <div class="hatas"></div>
+        <input type="submit" value="Kaydet">
+    </form>
+    <script src="template.js"></script>
+</body>
+</html>
